@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RealTimeDb xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastTimeUpdate>2017-07-15T15:38:15.258704+07:00</LastTimeUpdate>
+  <TimeEnergy>9</TimeEnergy>
+  <TimeDefense>287</TimeDefense>
+  <TimeBlood>287</TimeBlood>
+</RealTimeDb>

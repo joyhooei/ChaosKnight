@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<QuestDbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestList>
+    <QuestDb>
+      <IdQuest>1</IdQuest>
+      <NameQuest>Score's Farmer</NameQuest>
+      <ItemReward>1</ItemReward>
+      <RewardCount>12500</RewardCount>
+      <QuestCount>2400</QuestCount>
+      <MonsterTarget>0</MonsterTarget>
+      <ScoreTarget>1</ScoreTarget>
+      <UpgradeTarget>0</UpgradeTarget>
+      <Description>Collect 100 Score form kill monster</Description>
+      <QuestLoop>1</QuestLoop>
+      <LoopCountUp>100</LoopCountUp>
+      <RewardCountUp>500</RewardCountUp>
+      <Rewarded>0</Rewarded>
+    </QuestDb>
+    <QuestDb>
+      <IdQuest>2</IdQuest>
+      <NameQuest>Defeat Boss 1</NameQuest>
+      <ItemReward>2</ItemReward>
+      <RewardCount>10</RewardCount>
+      <QuestCount>1</QuestCount>
+      <MonsterTarget>18</MonsterTarget>
+      <ScoreTarget>0</ScoreTarget>
+      <UpgradeTarget>0</UpgradeTarget>
+      <Description>Defeat Tanot in Level 10 of Campaing mode</Description>
+      <QuestLoop>1</QuestLoop>
+      <LoopCountUp>1</LoopCountUp>
+      <RewardCountUp>1</RewardCountUp>
+      <Rewarded>0</Rewarded>
+    </QuestDb>
+    <QuestDb>
+      <IdQuest>3</IdQuest>
+      <NameQuest>Defeat Boss 2</NameQuest>
+      <ItemReward>2</ItemReward>
+      <RewardCount>10</RewardCount>
+      <QuestCount>1</QuestCount>
+      <MonsterTarget>18</MonsterTarget>
+      <ScoreTarget>0</ScoreTarget>
+      <UpgradeTarget>0</UpgradeTarget>
+      <Description>Defeat Archira in Level 20 of Campaing mode</Description>
+      <QuestLoop>1</QuestLoop>
+      <LoopCountUp>1</LoopCountUp>
+      <RewardCountUp>1</RewardCountUp>
+      <Rewarded>0</Rewarded>
+    </QuestDb>
+    <QuestDb>
+      <IdQuest>4</IdQuest>
+      <NameQuest>Defeat Boss 3</NameQuest>
+      <ItemReward>2</ItemReward>
+      <RewardCount>10</RewardCount>
+      <QuestCount>1</QuestCount>
+      <MonsterTarget>18</MonsterTarget>
+      <ScoreTarget>0</ScoreTarget>
+      <UpgradeTarget>0</UpgradeTarget>
+      <Description>Defeat Butcher in Level 30 of Campaing</Description>
+      <QuestLoop>1</QuestLoop>
+      <LoopCountUp>1</LoopCountUp>
+      <RewardCountUp>1</RewardCountUp>
+      <Rewarded>0</Rewarded>
+    </QuestDb>
+    <QuestDb>
+      <IdQuest>5</IdQuest>
+      <NameQuest>Defeat Boss 4</NameQuest>
+      <ItemReward>2</ItemReward>
+      <RewardCount>10</RewardCount>
+      <QuestCount>1</QuestCount>
+      <MonsterTarget>18</MonsterTarget>
+      <ScoreTarget>0</ScoreTarget>
+      <UpgradeTarget>0</UpgradeTarget>
+      <Description>Defeat Turatan in Blood Castle</Description>
+      <QuestLoop>1</QuestLoop>
+      <LoopCountUp>1</LoopCountUp>
+      <RewardCountUp>1</RewardCountUp>
+      <Rewarded>0</Rewarded>
+    </QuestDb>
+    <QuestDb>
+      <IdQuest>6</IdQuest>
+      <NameQuest>Upgrade War Weapon</NameQuest>
+      <ItemReward>1</ItemReward>
+      <RewardCount>1020</RewardCount>
+      <QuestCount>21</QuestCount>
+      <MonsterTarget>0</MonsterTarget>
+      <ScoreTarget>0</ScoreTarget>
+      <UpgradeTarget>10</UpgradeTarget>
+      <Description>Upgrade Chaos Eater +1</Description>
+      <QuestLoop>1</QuestLoop>
+      <LoopCountUp>10</LoopCountUp>
+      <RewardCountUp>10</RewardCountUp>
+      <Rewarded>0</Rewarded>
+    </QuestDb>
+    <QuestDb>
+      <IdQuest>7</IdQuest>
+      <NameQuest>Upgrade War Amor</NameQuest>
+      <ItemReward>1</ItemReward>
+      <RewardCount>1020</RewardCount>
+      <QuestCount>21</QuestCount>
+      <MonsterTarget>0</MonsterTarget>
+      <ScoreTarget>0</ScoreTarget>
+      <UpgradeTarget>20</UpgradeTarget>
+      <Description>Upgrade Intense +1</Description>
+      <QuestLoop>1</QuestLoop>
+      <LoopCountUp>10</LoopCountUp>
+      <RewardCountUp>10</RewardCountUp>
+      <Rewarded>0</Rewarded>
+    </QuestDb>
+    <QuestDb>
+      <IdQuest>8</IdQuest>
+      <NameQuest>Upgrade War Pedant</NameQuest>
+      <ItemReward>1</ItemReward>
+      <RewardCount>1020</RewardCount>
+      <QuestCount>21</QuestCount>
+      <MonsterTarget>0</MonsterTarget>
+      <ScoreTarget>0</ScoreTarget>
+      <UpgradeTarget>30</UpgradeTarget>
+      <Description>Upgrade Bandish +1</Description>
+      <QuestLoop>1</QuestLoop>
+      <LoopCountUp>10</LoopCountUp>
+      <RewardCountUp>10</RewardCountUp>
+      <Rewarded>0</Rewarded>
+    </QuestDb>
+  </QuestList>
+</QuestDbs>

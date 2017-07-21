@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 11bcd427e7219974eb59db9b18399929
+timeCreated: 1499840763
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_imgHPBar: {instanceID: 0}
+  - m_goEffectSkill1: {instanceID: 0}
+  - m_goEffectSkill2: {instanceID: 0}
+  - m_goEffectSkill3: {instanceID: 0}
+  - m_goExplosionEffect: {instanceID: 0}
+  - m_goBloodEffect: {fileID: 1928460258787072, guid: 0ed4e8b36724bca49a3ba46ac3d9f064,
+      type: 2}
+  - m_goEffectDust: {fileID: 1701006098693858, guid: f8ba73a3cdca5dd479085c0f1b33f4f2,
+      type: 2}
+  - m_goEffectFreeze: {fileID: 1743352188620058, guid: 7d8fe02d59115d44f8adc7d507977f12,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

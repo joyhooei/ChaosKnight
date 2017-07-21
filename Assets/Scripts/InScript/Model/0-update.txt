@@ -1,0 +1,2 @@
+﻿1. code xong database định dạng .cs. 
+2. Các mục : MonsterFxDb.cs, Phase.cs, PlayerDb.cs, QuestDb.cs, TurnDb.cs chưa có chú thích.

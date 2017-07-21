@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<MonsterCountDbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MonsterCountDbList>
+    <MonsterCountDb>
+      <IdMonsterCount>11</IdMonsterCount>
+      <IdMonster>1</IdMonster>
+      <KillCount>1</KillCount>
+    </MonsterCountDb>
+  </MonsterCountDbList>
+</MonsterCountDbs>

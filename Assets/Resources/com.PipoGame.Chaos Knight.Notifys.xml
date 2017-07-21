@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Notifys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NotifyDbList>
+    <NotifyDb>
+      <Id>1</Id>
+      <Type>1</Type>
+      <Content>Restart Game now?</Content>
+    </NotifyDb>
+    <NotifyDb>
+      <Id>2</Id>
+      <Type>1</Type>
+      <Content>Quit game and choose other level ?</Content>
+    </NotifyDb>
+    <NotifyDb>
+      <Id>3</Id>
+      <Type>1</Type>
+      <Content>Setting Save?</Content>
+    </NotifyDb>
+    <NotifyDb>
+      <Id>4</Id>
+      <Type>1</Type>
+      <Content>Quit game now?</Content>
+    </NotifyDb>
+    <NotifyDb>
+      <Id>5</Id>
+      <Type>2</Type>
+      <Content>The Coin conversion process is complete!</Content>
+    </NotifyDb>
+    <NotifyDb>
+      <Id>6</Id>
+      <Type>2</Type>
+      <Content>The Energy conversion process is complete!</Content>
+    </NotifyDb>
+    <NotifyDb>
+      <Id>7</Id>
+      <Type>3</Type>
+      <Content>Get reward successfull!</Content>
+    </NotifyDb>
+    <NotifyDb>
+      <Id>8</Id>
+      <Type>4</Type>
+      <Content>Nocmt</Content>
+    </NotifyDb>
+  </NotifyDbList>
+</Notifys>

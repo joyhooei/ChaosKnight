@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<RealTimeDbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RealTimes>
+    <RealTimeDb>
+      <Id>0</Id>
+      <Name>Energy</Name>
+      <LastTime>2017-07-15T11:50:23.7992957+07:00</LastTime>
+      <LastInTime>0</LastInTime>
+      <TimeReplay>240</TimeReplay>
+      <ReCount>true</ReCount>
+    </RealTimeDb>
+    <RealTimeDb>
+      <Id>1</Id>
+      <Name>BloodCastle</Name>
+      <LastTime>2017-07-15T11:50:23.7992957+07:00</LastTime>
+      <LastInTime>0</LastInTime>
+      <TimeReplay>3000</TimeReplay>
+      <ReCount>false</ReCount>
+    </RealTimeDb>
+    <RealTimeDb>
+      <Id>2</Id>
+      <Name>Base Defende</Name>
+      <LastTime>2017-07-15T11:50:23.7992957+07:00</LastTime>
+      <LastInTime>0</LastInTime>
+      <TimeReplay>3500</TimeReplay>
+      <ReCount>false</ReCount>
+    </RealTimeDb>
+  </RealTimes>
+</RealTimeDbs>

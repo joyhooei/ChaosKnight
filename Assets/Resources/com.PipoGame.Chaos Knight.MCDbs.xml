@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<MCDbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MC>
+    <MCDb>
+      <IdMC>1</IdMC>
+      <NameMC>War</NameMC>
+      <Description>“Anything will be destroy under my horse leg !”</Description>
+      <CoinUnlock>0</CoinUnlock>
+      <IAPUnlock>0</IAPUnlock>
+      <HpDefault>1000</HpDefault>
+      <MpDefault>100</MpDefault>
+      <MpRegen>10</MpRegen>
+      <MpRegenTime>2</MpRegenTime>
+      <AMDefault>10</AMDefault>
+      <MRDefault>10</MRDefault>
+      <DodgeDefault>0.1</DodgeDefault>
+      <MoveSpeed>5</MoveSpeed>
+      <AnimationSpeed>2</AnimationSpeed>
+    </MCDb>
+    <MCDb>
+      <IdMC>2</IdMC>
+      <NameMC>Death</NameMC>
+      <Description>“Everybody will be dies. No one except”</Description>
+      <CoinUnlock>0</CoinUnlock>
+      <IAPUnlock>0</IAPUnlock>
+      <HpDefault>800</HpDefault>
+      <MpDefault>100</MpDefault>
+      <MpRegen>10</MpRegen>
+      <MpRegenTime>2</MpRegenTime>
+      <AMDefault>5</AMDefault>
+      <MRDefault>5</MRDefault>
+      <DodgeDefault>0.2</DodgeDefault>
+      <MoveSpeed>80</MoveSpeed>
+      <AnimationSpeed>2</AnimationSpeed>
+    </MCDb>
+    <MCDb>
+      <IdMC>3</IdMC>
+      <NameMC>Famile</NameMC>
+      <Description>“Selfish, hateful, deceitful ... human”</Description>
+      <CoinUnlock>0</CoinUnlock>
+      <IAPUnlock>2000</IAPUnlock>
+      <HpDefault>800</HpDefault>
+      <MpDefault>100</MpDefault>
+      <MpRegen>20</MpRegen>
+      <MpRegenTime>2</MpRegenTime>
+      <AMDefault>5</AMDefault>
+      <MRDefault>10</MRDefault>
+      <DodgeDefault>0.3</DodgeDefault>
+      <MoveSpeed>100</MoveSpeed>
+      <AnimationSpeed>2</AnimationSpeed>
+    </MCDb>
+    <MCDb>
+      <IdMC>4</IdMC>
+      <NameMC>Pestilence</NameMC>
+      <Description>“The smell of sin ... I feel it is around here”</Description>
+      <CoinUnlock>0</CoinUnlock>
+      <IAPUnlock>5000</IAPUnlock>
+      <HpDefault>1000</HpDefault>
+      <MpDefault>100</MpDefault>
+      <MpRegen>20</MpRegen>
+      <MpRegenTime>2</MpRegenTime>
+      <AMDefault>5</AMDefault>
+      <MRDefault>10</MRDefault>
+      <DodgeDefault>0.4</DodgeDefault>
+      <MoveSpeed>80</MoveSpeed>
+      <AnimationSpeed>2</AnimationSpeed>
+    </MCDb>
+  </MC>
+</MCDbs>

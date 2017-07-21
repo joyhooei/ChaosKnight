@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<CutsceneDbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<CutsceneDbList>
+  <Cutscene>
+    <IdCutscene>1</IdCutscene>
+    <IdCampaing>10</IdCampaing>
+    <NameCutscene>Boss stage 1</NameCutscene>
+    <Phase>3</Phase>
+    <Poison>1</Poison>
+    <TalkList>
+      <Talk>
+        <Avatar>Source Link</Avatar>
+        <Content>"Heaven! … Ha ha ha ha!"</Content>
+        <CamMC>0</CamMC>
+        <CamBoss>1</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+	  <Talk>
+        <Avatar>Source Link</Avatar>
+        <Content>"Lucifer will make this place downfall!"</Content>
+        <CamMC>0</CamMC>
+        <CamBoss>1</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+	  <Talk>
+        <Avatar>Source Link</Avatar>
+        <Content>"Heaven never downfall!"</Content>
+        <CamMC>1</CamMC>
+        <CamBoss>0</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+    </TalkList>
+  </Cutscene>
+  <Cutscene>
+    <IdCutscene>2</IdCutscene>
+    <IdCampaing>20</IdCampaing>
+    <NameCutscene>Boss Stage 2</NameCutscene>
+    <Phase>3</Phase>
+    <Poison>1</Poison>
+    <TalkList>
+      <Talk>
+        <Avatar>Link Source</Avatar>
+        <Content>"Grazz…. Grazz… Grrrrrrrrrrrrrr….. !!!"</Content>
+        <CamMC>0</CamMC>
+        <CamBoss>1</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+	  <Talk>
+        <Avatar>Link Source</Avatar>
+        <Content>"But have to defeat me first!"</Content>
+        <CamMC>1</CamMC>
+        <CamBoss>0</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+    </TalkList>
+  </Cutscene>
+  <Cutscene>
+    <IdCutscene>3</IdCutscene>
+    <IdCampaing>30</IdCampaing>
+    <NameCutscene>Boss Stage 3</NameCutscene>
+    <Phase>3</Phase>
+    <Poison>1</Poison>
+    <TalkList>
+      <Talk>
+        <Avatar>Link Source</Avatar>
+        <Content>"I will break four Apocalype Knights…"</Content>
+        <CamMC>0</CamMC>
+        <CamBoss>1</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+	  <Talk>
+        <Avatar>Link Source</Avatar>
+        <Content>"But have to defeat me first!"</Content>
+        <CamMC>1</CamMC>
+        <CamBoss>0</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+    </TalkList>
+  </Cutscene>
+  <Cutscene>
+    <IdCutscene>4</IdCutscene>
+    <IdCampaing>40</IdCampaing>
+    <NameCutscene>Boss Stage 4</NameCutscene>
+    <Phase>3</Phase>
+    <Poison>1</Poison>
+    <TalkList>
+      <Talk>
+        <Avatar>Link Source</Avatar>
+        <Content>"Wrong way !"</Content>
+        <CamMC>0</CamMC>
+        <CamBoss>1</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+	  <Talk>
+        <Avatar>Link Source</Avatar>
+        <Content>"Are you want defeat Samael? Ha ha ha! Stupid !"</Content>
+        <CamMC>1</CamMC>
+        <CamBoss>0</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+	  <Talk>
+        <Avatar>Link Source</Avatar>
+        <Content>"Again, I say: Give way to me !"</Content>
+        <CamMC>1</CamMC>
+        <CamBoss>0</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+	  <Talk>
+        <Avatar>Link Source</Avatar>
+        <Content>"Dreamlike ! Fight for Samael ! For Lucifer !"</Content>
+        <CamMC>1</CamMC>
+        <CamBoss>0</CamBoss>
+        <CamZoom>4</CamZoom>
+      </Talk>
+    </TalkList>
+  </Cutscene>
+  </CutsceneDbList>
+</CutsceneDbs>

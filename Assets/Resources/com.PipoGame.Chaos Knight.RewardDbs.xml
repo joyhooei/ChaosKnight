@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<RewardDbs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RewardDbList>
+    <RewardDb>
+      <IdReward>1</IdReward>
+      <IdItem>1</IdItem>
+      <Count>500</Count>
+      <Status>1</Status>
+    </RewardDb>
+    <RewardDb>
+      <IdReward>2</IdReward>
+      <IdItem>1</IdItem>
+      <Count>1000</Count>
+      <Status>0</Status>
+    </RewardDb>
+    <RewardDb>
+      <IdReward>3</IdReward>
+      <IdItem>1</IdItem>
+      <Count>3000</Count>
+      <Status>0</Status>
+    </RewardDb>
+    <RewardDb>
+      <IdReward>4</IdReward>
+      <IdItem>1</IdItem>
+      <Count>8000</Count>
+      <Status>0</Status>
+    </RewardDb>
+    <RewardDb>
+      <IdReward>5</IdReward>
+      <IdItem>2</IdItem>
+      <Count>20</Count>
+      <Status>1</Status>
+    </RewardDb>
+    <RewardDb>
+      <IdReward>6</IdReward>
+      <IdItem>2</IdItem>
+      <Count>50</Count>
+      <Status>1</Status>
+    </RewardDb>
+    <RewardDb>
+      <IdReward>7</IdReward>
+      <IdItem>2</IdItem>
+      <Count>140</Count>
+      <Status>0</Status>
+    </RewardDb>
+  </RewardDbList>
+</RewardDbs>
