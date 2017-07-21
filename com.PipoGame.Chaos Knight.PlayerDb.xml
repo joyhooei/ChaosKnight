@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<PlayerDb xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Coin>574</Coin>
+  <IAP>500</IAP>
+  <Energy>50</Energy>
+  <MC>1</MC>
+  <LvCamping>1</LvCamping>
+  <LvBloodCastle>1</LvBloodCastle>
+  <LvDefenseBase>1</LvDefenseBase>
+  <Score>0</Score>
+</PlayerDb>

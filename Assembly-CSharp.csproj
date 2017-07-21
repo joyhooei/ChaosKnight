@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{09509206-1B47-CD20-CC82-821BD2733C2E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_2;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Prefabs\UI\ButtonInGame\switchButton.cs" />
+     <Compile Include="Assets\RainMaker\Prefab\BaseRainScript.cs" />
+     <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
+     <Compile Include="Assets\RainMaker\Prefab\RainScript2D.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Auto\AdsShow.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Auto\AutoDie.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Auto\Effect\AutoThunder.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Auto\Effect\soundEffectControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Auto\MainEventRuntime\InfoShow.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Auto\MainEventRuntime\ReplayProperties.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Auto\MainEventRuntime\TimeStatic.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Auto\WeatherControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\DataRader.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\Notify.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\blood.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\camping.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\cutscene.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\defence.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\item.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\mc.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\monster.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\monsterCount.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\monsterFx.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\player.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\quest.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\realtime.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\reward.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\skill.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Database\stringdb.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Enemy\Boss1SkillController.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Enemy\EnemyControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Enemy\EnemyControll_Old.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Enemy\EnemyGetSkillControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Enemy\EnemySkillControl.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Enemy\EnemyWeaponController.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Enemy\soundEnemyControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Environment\CharacterToGroundEffect.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Environment\GrassBorn.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Environment\Parallax.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Item\ItemControl.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Item\ListItemControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Level\CampingControl.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Level\Demo\testBoss.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Level\DropItemControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Level\LoadLevelControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Level\chooseLevel.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Level\enableLevelChoose.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Level\loadScreenControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Level\result\resultScript.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\Level\soundCampaingControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\MainCharacter\mainController.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\MainCharacter\mainItemControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\MainCharacter\mainSkillControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\MainCharacter\soundMainController.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\Custom Shop\itemShopControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\Custom Shop\shopControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\GamplayControll\ChooseCompaingControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\GamplayControll\closeOnClick.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\GamplayControll\notifyControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\GamplayControll\pauseMenuControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\GamplayControll\pauseOnClick.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\GamplayControll\settingControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\BuyCoin.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\BuyEnergy.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Inventory\ChooseItemInventory.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Inventory\ItemInventoryControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Inventory\ItemInventoryLoad.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Inventory\ItemInventoryShow.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\LoadPopUpControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\MainButtonOnClick.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Quest\QuestItemControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Quest\QuestLoad.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Reward\ItemRewardControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Reward\ItemRewardLoad.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Reward\ItemRewardShow.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Skill\ItemSkillControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Skill\ItemSkillLoad.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Skill\ItemSkillShow.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Temple\ItemTempleControll.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Temple\ItemTempleLoad.cs" />
+     <Compile Include="Assets\Scripts\InScript\GamePlay\UI Control\MainMenuControll\Temple\ItemTempleShow.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\BloodCastledb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\CampingDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\CutsceneDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\DefenseBasedb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\ItemDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\MCDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\MonsterCountDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\MonsterDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\MonsterFxDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\NotifyDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\Phase.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\PlayerDB.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\QuestDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\RealTimeDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\RewardDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\SkillDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\StringDb.cs" />
+     <Compile Include="Assets\Scripts\InScript\Model\Turn.cs" />
+     <Compile Include="Assets\Scripts\InScript\Statics\PublicClass.cs" />
+     <Compile Include="Assets\Scripts\InScript\Statics\resultStatic.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\CnInputSystem\CnInputManager.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\CnInputSystem\VirtualAxis.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\CnInputSystem\VirtualButton.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\Controllers\CommonOnScreenControl.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\Controllers\Dpad.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\Controllers\DpadAxis.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\Controllers\SensitiveJoystick.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\Controllers\SimpleButton.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\Controllers\SimpleJoystick.cs" />
+     <Compile Include="Assets\Scripts\OutScript\CnInputControler\Controllers\Touchpad.cs" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.Notifys.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.SkillDbs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.RealTimeDb.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.MonsterFxDbs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.PlayerDb.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.MonsterCountDbs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.BloodCastleDb.xml" />
+     <None Include="Assets\Scripts\InScript\Model\0-update.txt" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.RealTimeDbs.xml" />
+     <None Include="Assets\RainMaker\Prefab\RainShader.shader" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.CampaingDbs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.MonsterDbs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.RewardDbs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.DefenseBaseDb.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.ItemDbs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.MCDbs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.StringDBs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.CutsceneDbs.xml" />
+     <None Include="Assets\Resources\com.PipoGame.Chaos Knight.QuestDbs.xml" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/macone/Documents/data/bgate/gameunity/Chaos Knight/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
